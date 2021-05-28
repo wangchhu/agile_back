@@ -18,26 +18,28 @@ class Tibet extends Component(){
 
     render(){
         return(
+
+        <div>
             <html>
 
-        <head>
+            <head>
 
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <meta name="description" content="">
-            <meta name="author" content="">
-            <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+                <meta name="description" content=""/>
+                <meta name="author" content=""/>
+                <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 
-            <title>Tibet Lodge - Restaurant</title>
-        
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-            <link rel="stylesheet" type="text/css" href="css/font.css">
-            <link rel="stylesheet" href="css/khumbu.css">
-            <link rel="stylesheet" href="css/owl-carousel.css">
-            <link rel="stylesheet" href="css/lightbox.css">
-
+                <title>Tibet Lodge - Restaurant</title>
+            
+                <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+                <link rel="stylesheet" type="text/css" href="css/font.css"/>
+                <link rel="stylesheet" href="css/khumbu.css"/>
+                <link rel="stylesheet" href="css/owl-carousel.css"/>
+                <link rel="stylesheet" href="css/lightbox.css"/>
             </head>
+            
     
     <body>
     
@@ -48,9 +50,6 @@ class Tibet extends Component(){
             <div></div>
         </div>
     </div>  
-
-
-    <!-- ***** Main Banner Area ***** -->
     <div id="top">
         <div class="container-fluid">
             <div class="row">
@@ -68,36 +67,32 @@ class Tibet extends Component(){
                 <div class="col-lg-8">
                     <div class="main-banner header-text">
                         <div class="Modern-Slider">
-                          <!-- Item -->
+                      
                           <div class="item">
                             <div class="img-fill">
-                                <img src="images/slide-01.jpg" alt="">
+                                <img src="/slide-01.jpg" alt="image"/>
                             </div>
                           </div>
-                          <!-- // Item -->
-                          <!-- Item -->
+                    
                           <div class="item">
                             <div class="img-fill">
-                                <img src="images/slide-02.jpg" alt="">
+                                <img src="/slide-02.jpg" alt=""/>
                             </div>
                           </div>
-                          <!-- // Item -->
-                          <!-- Item -->
+                          
                           <div class="item">
                             <div class="img-fill">
-                                <img src="images/slide-03.jpg" alt="">
+                                <img src="/slide-03.jpg" alt=""/>
                             </div>
                           </div>
-                          <!-- // Item -->
+                      
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner End ***** -->
-
-    <!-- ***** About Starts ***** -->
+  
     <section class="section" id="about">
         <div class="container">
             <div class="row">
@@ -105,18 +100,18 @@ class Tibet extends Component(){
                     <div class="left-text-content">
                         <div class="section-heading">
                             <h6>About Us</h6>
-                            <h2>We Leave A Delicious Memory For You<br><br>...Visit Us...</h2>
+                            <h2>We Leave A Delicious Memory For You<br></br>...Visit Us...</h2>
                         </div>
-                        <p>Tibet Lodge is one of the best <a href="#" target="_blank" rel="sponsored">Hospitality and with good restaurant</a> available in Solukhumbu jorshalley. <a href="#" target="_blank" rel="sponsored">Gateway to Everest</a>  <br> #Pasang Choley Sherpa. <br><br>Thankyou</p>
+                        <p>Tibet Lodge is one of the best <a href="#" target="_blank" rel="sponsored">Hospitality and with good restaurant</a> available in Solukhumbu jorshalley. <a href="#" target="_blank" rel="sponsored">Gateway to Everest</a>  <br> #Pasang Choley Sherpa. </br>Thankyou</p>
                         <div class="row">
                             <div class="col-4">
-                                <img src="images/about-thumb-01.jpg" alt="">
+                                <img src="images/about-thumb-01.jpg" alt=""/>
                             </div>
                             <div class="col-4">
-                                <img src="images/about-thumb-02.jpg" alt="">
+                                <img src="images/about-thumb-02.jpg" alt=""/>
                             </div>
                             <div class="col-4">
-                                <img src="images/about-thumb-03.jpg" alt="">
+                                <img src="images/about-thumb-03.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -125,16 +120,14 @@ class Tibet extends Component(){
                     <div class="right-content">
                         <div class="thumb">
                             <a rel="nofollow" href="#"><i class="fa fa-play"></i></a>
-                            <img src="images/about-video-bg.jpg" alt="">
+                            <img src="images/about-video-bg.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** About Ends ***** -->
-
-    <!-- ***** Menu Area ***** -->
+  <br></br>
     <section class="section" id="menu">
         <div class="container">
             <div class="row">
@@ -147,9 +140,7 @@ class Tibet extends Component(){
             </div>
         </div>
            </section>
-    <!-- ***** Menu Ends ***** -->
-
-    <!-- ***** Chefs Area ***** -->
+   
     <section class="section" id="chefs">
         <div class="container">
             <div class="row">
@@ -169,7 +160,7 @@ class Tibet extends Component(){
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
-                            <img src="images/pasang.jpg" alt="Chef #1">
+                            <img src="images/pasang.jpg" alt="Chef #1"/>
                         </div>
                         <div class="down-content">
                             <h4>Pasang Sherpa</h4>
@@ -185,7 +176,7 @@ class Tibet extends Component(){
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
-                            <img src="images/wang.jpg" alt="Chef #2">
+                            <img src="images/wang.jpg" alt="Chef #2"/>
                         </div>
                         <div class="down-content">
                             <h4>Wangchhu Tamang</h4>
@@ -201,7 +192,7 @@ class Tibet extends Component(){
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
-                            <img src="images/aspan.jpg" alt="Chef #3">
+                            <img src="images/aspan.jpg" alt="Chef #3"/>
                         </div>
                         <div class="down-content">
                             <h4>Aspan Lopchan</h4>
@@ -212,9 +203,6 @@ class Tibet extends Component(){
             </div>
         </div>
     </section>
-    <!-- ***** Chefs Ends ***** -->
-
-    <!-- ***** Reservation Area ***** -->
     <section class="section" id="reservation">
         <div class="container">
             <div class="row">
@@ -230,14 +218,14 @@ class Tibet extends Component(){
                                 <div class="phone">
                                     <i class="fa fa-phone"></i>
                                     <h4>Phone Numbers</h4>
-                                    <span><a href="#">9863841998</a><br><a href="#">9813910902</a></span>
+                                    <span><a href="#">9863841998</a><br><a href="#">9813910902</a></br></span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="message">
                                     <i class="fa fa-envelope"></i>
                                     <h4>Emails</h4>
-                                    <span><a href="#">Wang@company.com</a><br><a href="#">Pasang@company.com</a></span>
+                                    <span><a href="#">Wang@company.com</a><br><a href="#">Pasang@company.com</a></br></span>
                                 </div>
                             </div>
                         </div>
@@ -252,17 +240,17 @@ class Tibet extends Component(){
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required=""/>
                               </fieldset>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required=""/>
                             </fieldset>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                                <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                                <input name="phone" type="text" id="phone" placeholder="Phone Number*" required=""/>
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
@@ -287,7 +275,7 @@ class Tibet extends Component(){
                             <div class="col-lg-6">
                                 <div id="filterDate2">    
                                   <div class="input-group date" data-date-format="dd/mm/yyyy">
-                                    <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                    <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy"/>
                                     <div class="input-group-addon" >
                                       <span class="glyphicon glyphicon-th"></span>
                                     </div>
@@ -321,44 +309,13 @@ class Tibet extends Component(){
             </div>
         </div>
     </section>
-    <!-- ***** Reservation Ends ***** -->
     
-    <!-- ***** Footer ***** -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-xs-12">
-                    <div class="right-text-content">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="logo">
-                        <a href="khumbu.html"><img src="images/tibet_web.png22.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-xs-12">
-                    <div class="left-text-content">
-                        <p>© Copyright Wangchhu Moks & Co.
-                        
-                        <br>Design: Contact to Moktan & Co.<br> 9863841998 </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
-    <!-- jQuery -->
     <script src="js/jquery-2.1.0.min.js"></script>
 
-    <!-- Bootstrap -->
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugins -->
     <script src="js/owl-carousel.js"></script>
     <script src="js/accordions.js"></script>
     <script src="js/datepicker.js"></script>
@@ -369,10 +326,9 @@ class Tibet extends Component(){
     <script src="js/slick.js"></script> 
     <script src="js/lightbox.js"></script> 
     <script src="js/isotope.js"></script> 
-    
-    <!-- Global Init -->
+
     <script src="js/custom.js"></script>
-    <script>
+    {/* <script>
 
         $(function() {
             var selectedClass = "";
@@ -388,13 +344,14 @@ class Tibet extends Component(){
             });
         });
 
-    </script>
+    </script> */}
   </body>
 </html>
+</div>
 
         )
     }
 
 }
 
-export default Tibet;
+export default Tibet

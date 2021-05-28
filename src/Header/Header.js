@@ -11,7 +11,7 @@ class Header extends Component{
                     <nav class="main-nav">
                        
                         <a href="khumbu.html" class="logo">
-                            <img src="images/newkhumbu.png" align="">
+                            <img src="images/newkhumbu.png" align=""/>
                         </a>
                        
                         <ul class="nav">

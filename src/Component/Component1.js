@@ -3,15 +3,16 @@ import {Route} from 'react-router-dom';
 import Tibet from '../Container/Tibet';
 
 
-class Component extends Component{
+class Component1 extends Component{
     render(){
         return(
             <div>
                 <Route path='/Tibet' Component={Tibet}/>
+
             </div>
         )
     }
 }
 
 
-export default Component;
+export default Component1;
