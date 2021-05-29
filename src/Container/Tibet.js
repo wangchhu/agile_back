@@ -3,18 +3,18 @@ import axios from 'axios';
 
 class Tibet extends Component(){
 
-    componentDidMount(){
-        axios.get('http://localhost:/5000')
-        .then((response)=>{
-            console.log(response.data)
-            this.setState({
-                FOOD:response.data
-            })
-        })
-        .catch((err)=>{
-            console.log(err.response)
-        })
-    }
+    // componentDidMount(){
+    //     axios.get('http://localhost:/5000')
+    //     .then((response)=>{
+    //         console.log(response.data)
+    //         this.setState({
+    //             FOOD:response.data
+    //         })
+    //     })
+    //     .catch((err)=>{
+    //         console.log(err.response)
+    //     })
+    // }
 
     render(){
         return(
@@ -33,11 +33,11 @@ class Tibet extends Component(){
 
                 <title>Tibet Lodge - Restaurant</title>
             
-                <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-                <link rel="stylesheet" type="text/css" href="css/font.css"/>
-                <link rel="stylesheet" href="css/khumbu.css"/>
-                <link rel="stylesheet" href="css/owl-carousel.css"/>
-                <link rel="stylesheet" href="css/lightbox.css"/>
+                {/* <link rel="stylesheet" type="text/css" href="/khumbu.css"/>
+                <link rel="stylesheet" type="text/css" href="/khumbu.css"/>
+                <link rel="stylesheet" href="/khumbu.css"/>
+                <link rel="stylesheet" href="/khumbu.css"/>
+                <link rel="stylesheet" href="/khumbu.css"/> */}
             </head>
             
     
@@ -55,11 +55,12 @@ class Tibet extends Component(){
             <div class="row">
                 <div class="col-lg-4">
                     <div class="left-content">
+                        <image src="/top-left-bg.jpg.png" alt=""/>
                         <div class="inner-content">
                             <h4>Tibet Lodge & Restaurant</h4>
                             <h6>THE BEST EXPERIENCE</h6>
                             <div class="main-white-button scroll-to-section">
-                                <a href="#reservation">Make A Reservation</a>
+                                <a href="#reservation">Make A Reservation <image src="/reservation-bg.jpg" alt=""/></a>
                             </div>
                         </div>
                     </div>
